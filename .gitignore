@@ -1,0 +1,9 @@
+# ビルド
+/webapp/WEB-INF/classes/
+*.class
+
+# ライブラリ
+/lib/
+
+# エデュた
+.vscode/
