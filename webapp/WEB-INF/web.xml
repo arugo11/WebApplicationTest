@@ -70,5 +70,15 @@
     <servlet-name>Pluscon23088</servlet-name>
     <url-pattern>/servlet/Pluscon23088/</url-pattern>
   </servlet-mapping>
+
+  <!-- SimpleServlet3 -->
+  <servlet>
+    <servlet-name>SimpleServlet3</servlet-name>
+    <servlet-class>SimpleServlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServlet3</servlet-name>
+    <url-pattern>/servlet/SimpleServlet3/</url-pattern>
+  </servlet-mapping>
 </web-app>
 
