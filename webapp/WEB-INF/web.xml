@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <web-app>
 
+  <!-- Hello -->
   <servlet>
     <servlet-name>Hello</servlet-name>
     <servlet-class>HelloWorld</servlet-class>
   </servlet>
-
-  <servlet>
-    <servlet-name>Simple</servlet-name>
-    <servlet-class>SimpleServlet</servlet-class>
-  </servlet>
-
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
     <url-pattern>/servlet/hello</url-pattern>
   </servlet-mapping>
-  
+
+  <!-- Simple -->
+  <servlet>
+    <servlet-name>Simple</servlet-name>
+    <servlet-class>SimpleServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>Simple</servlet-name>
     <url-pattern>/servlet/Simple/</url-pattern>
   </servlet-mapping>
-  
+
+  <!-- Hello23088 -->
+  <servlet>
+    <servlet-name>Hello23088</servlet-name>
+    <servlet-class>Hello23088</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hello23088</servlet-name>
+    <url-pattern>/servlet/hello23088</url-pattern>
+  </servlet-mapping>
+
 </web-app>
+
