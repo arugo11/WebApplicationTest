@@ -51,5 +51,14 @@
     <url-pattern>/servlet/SimpleServlet2/</url-pattern>
   </servlet-mapping>
 
+    <!-- Triangle23088 -->
+  <servlet>
+    <servlet-name>Triangle23088</servlet-name>
+    <servlet-class>Tricon23088</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Triangle23088</servlet-name>
+    <url-pattern>/servlet/Tricon23088/</url-pattern>
+  </servlet-mapping>
 </web-app>
 
