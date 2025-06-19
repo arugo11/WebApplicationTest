@@ -31,5 +31,15 @@
     <url-pattern>/servlet/hello23088</url-pattern>
   </servlet-mapping>
 
+    <!-- Plus23088 -->
+  <servlet>
+    <servlet-name>Plus23088</servlet-name>
+    <servlet-class>SimpleServlet23088</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Plus23088</servlet-name>
+    <url-pattern>/servlet/Plus23088/</url-pattern>
+  </servlet-mapping>
+
 </web-app>
 
