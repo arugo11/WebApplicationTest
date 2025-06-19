@@ -60,5 +60,15 @@
     <servlet-name>Triangle23088</servlet-name>
     <url-pattern>/servlet/Tricon23088/</url-pattern>
   </servlet-mapping>
+
+    <!-- Pluscon23088 -->
+  <servlet>
+    <servlet-name>Pluscon23088</servlet-name>
+    <servlet-class>Pluscon23088</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Pluscon23088</servlet-name>
+    <url-pattern>/servlet/Pluscon23088/</url-pattern>
+  </servlet-mapping>
 </web-app>
 
