@@ -1,5 +1,19 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ page import="java.util.*, java.text.*" %>
+<%!
+    // XSS対策：HTMLタグをエスケープするメソッド
+    public String escapeHtml(String str) {
+        if (str == null) {
+            return "";
+        }
+        str = str.replace("&", "&amp;");
+        str = str.replace("<", "&lt;");
+        str = str.replace(">", "&gt;");
+        str = str.replace("\"", "&quot;");
+        str = str.replace("'", "&#39;");
+        return str;
+    }
+%>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -48,10 +62,10 @@
                         <%= md.format(java.sql.Date.valueOf(datePart)) %>
                     <% } %>
                 </td>
-                <td><%= msg %></td>
+                <td><%= escapeHtml(msg) %></td>
             <% } else { %>
-                <td><%= name %></td>
-                <td><%= msg %></td>
+                <td><%= escapeHtml(name) %></td>
+                <td><%= escapeHtml(msg) %></td>
                 <td class="center">
                     <% if (datePart.equals(today)) { %>
                         <%= timePart %>
