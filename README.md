@@ -1,18 +1,12 @@
-## Getting Started
+# WebApplicationTest
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+このリポジトリは、上級プログラミング2のレポート課題用Webアプリケーションのソースコードです。
 
-## Folder Structure
+## フォルダ構成
+- `src/` : Javaソースコード
+- `lib/` : 依存ライブラリ
+- `webapp/` : HTML, JSP, WEB-INF などWebアプリ関連ファイル
+- `docs/` : レポート等のドキュメント
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ビルド・実行方法
+- Java, Tomcat, PostgreSQLが必要です。
