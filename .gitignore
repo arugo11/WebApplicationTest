@@ -1,12 +1,17 @@
-# ビルド
-/webapp/WEB-INF/classes/
-*.class
+# ビルド生成物のバイナリディレクトリ
+bin/ 
+# Javaのクラスファイル
 
-# ライブラリ
-/lib/
+*.class 
 
-# エデュタ
-.vscode/
+# VSCodeの設定ディレクトリ
+.vscode/ 
 
-# レポート類
-docs/
+# PDFファイル
+*.pdf 
+
+# ライブラリディレクトリ
+lib/ 
+
+# Typst関連ファイル
+*.typ 
