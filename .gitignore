@@ -11,7 +11,9 @@ bin/
 *.pdf 
 
 # ライブラリディレクトリ
-lib/ 
+lib/
+!lib/usedb/
+!lib/usedb/*
 
 # Typst関連ファイル
 *.typ 
