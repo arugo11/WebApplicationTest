@@ -13,7 +13,7 @@ bin/
 # ライブラリディレクトリ
 lib/
 !lib/usedb/
-!lib/usedb/*
+
 
 # Typst関連ファイル
 *.typ 
