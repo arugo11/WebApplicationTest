@@ -10,7 +10,16 @@ public class DbInsertBean {
     // DB接続情報
     private static final String URL = "jdbc:postgresql://172.21.87.228:5433/test1";
     private static final String USER = "shibaura";
-    private static final String PASSWORD = "toyosu";
+    private static final String PASSWORD = getDbPassword();
+
+    private static String getDbPassword() {
+        String password = System.getenv("DB_PASSWORD");
+        if (password == null) {
+            System.err.println("環境変数 DB_PASSWORD が設定されていません。");
+            return null;
+        }
+        return password;
+    }
 
     public boolean insertLog(String id, String name, String message) {
         Connection conn = null;
