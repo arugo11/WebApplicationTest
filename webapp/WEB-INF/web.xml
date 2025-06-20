@@ -90,6 +90,17 @@
     <servlet-name>Control23088</servlet-name>
     <url-pattern>/servlet/Control23088/</url-pattern>
   </servlet-mapping>
+
+  <!-- ChatCon23088 -->
+  <servlet>
+    <servlet-name>ChatCon23088</servlet-name>
+    <servlet-class>ChatCon23088</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChatCon23088</servlet-name>
+    <url-pattern>/servlet/ChatCon23088/</url-pattern>
+  </servlet-mapping>
+
 </web-app>
 
 

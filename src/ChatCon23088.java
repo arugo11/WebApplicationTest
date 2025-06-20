@@ -8,7 +8,6 @@ import lib.usedb.DbInsertBean;
 import lib.usedb.DbSelectBean;
 import java.util.ArrayList;
 
-@WebServlet("/ChatCon23088")
 public class ChatCon23088 extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
